@@ -1,0 +1,20 @@
+# Mac/Linux
+touch .gitignore
+
+# Windows
+echo. > .gitignore
+```
+
+**5. Open `.gitignore` and paste this:**
+```
+# Node
+node_modules/
+.env
+.env.local
+.next/
+dist/
+
+# General
+.DS_Store
+*.log
+uploads/
